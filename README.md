@@ -1,5 +1,3 @@
-# gulp-base
-
 <h1 align="center">Gulp</h1>
 
 ## Описание
