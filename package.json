@@ -20,7 +20,13 @@
   },
   "homepage": "https://github.com/SoinRoma/gulp-base#readme",
   "devDependencies": {
+    "browser-sync": "^2.27.11",
+    "del": "^7.0.0",
     "gulp": "^4.0.2",
-    "gulp-cli": "^2.3.0"
+    "gulp-cli": "^2.3.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-file-include": "^2.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-sass": "^5.1.0"
   }
 }
