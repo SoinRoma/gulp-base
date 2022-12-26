@@ -1,0 +1,14 @@
+body{
+    background-color: aqua;
+}
+
+@mixin clear-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    @include clear-list();
+    display: flex;
+}

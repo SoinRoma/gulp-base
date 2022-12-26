@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "gulp dev",
     "build-prod": "gulp build",
-    "clear": "rd /s /q dist"
+    "clear": "gulp clear"
   },
   "repository": {
     "type": "git",
@@ -21,10 +21,14 @@
   "homepage": "https://github.com/SoinRoma/gulp-base#readme",
   "devDependencies": {
     "browser-sync": "^2.27.11",
+    "del": "^5.1.0",
     "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
     "gulp-cli": "^2.3.0",
+    "gulp-concat": "^2.6.1",
     "gulp-csso": "^4.0.1",
     "gulp-htmlmin": "^5.0.1",
-    "gulp-sass": "^5.1.0"
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.57.1"
   }
 }
