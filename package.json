@@ -1,0 +1,26 @@
+{
+  "name": "gulp-base",
+  "version": "1.0.0",
+  "description": "Базовая настройка Gulp для оптимизации проекта (HTML, CSS. JavaScript)",
+  "main": "index.js",
+  "scripts": {
+    "build-dev": "gulp",
+    "build-prod": "gulp",
+    "clear": "gulp clear"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoinRoma/gulp-base.git"
+  },
+  "keywords": [],
+  "author": "Soin Roman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SoinRoma/gulp-base/issues"
+  },
+  "homepage": "https://github.com/SoinRoma/gulp-base#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0"
+  }
+}
